@@ -60,3 +60,27 @@ https://vim.rtorr.com/
     Ctrl + wl - move cursor to the right window (vertical split)
     Ctrl + wj - move cursor to the window below (horizontal split)
     Ctrl + wk - move cursor to the window above (horizontal split)
+    
+    
+    
+### Search and replace
+
+    /pattern - search for pattern
+    ?pattern - search backward for pattern
+    \vpattern - 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
+    n - repeat search in same direction
+    N - repeat search in opposite direction
+    :%s/old/new/g - replace all old with new throughout file
+    :%s/old/new/gc - replace all old with new throughout file with confirmations
+    :noh - remove highlighting of search matches
+
+
+### Search in multiple files
+
+    :vimgrep /pattern/ {file} - search for pattern in multiple files
+
+e.g.:vimgrep /foo/ **/*
+
+    :cn - jump to the next match
+    :cp - jump to the previous match
+    :copen - open a window containing the list of matches

@@ -41,3 +41,22 @@ https://vim.rtorr.com/
     M - move to middle of screen
     L - move to bottom of screen
     w - jump forwards to the start of a word
+    
+    
+### Working with multiple files
+
+    :e file - edit a file in a new buffer
+    :bnext or :bn - go to the next buffer
+    :bprev or :bp - go to the previous buffer
+    :bd - delete a buffer (close a file)
+    :ls - list all open buffers
+    :sp file - open a file in a new buffer and split window
+    :vsp file - open a file in a new buffer and vertically split window
+    Ctrl + ws - split window
+    Ctrl + ww - switch windows
+    Ctrl + wq - quit a window
+    Ctrl + wv - split window vertically
+    Ctrl + wh - move cursor to the left window (vertical split)
+    Ctrl + wl - move cursor to the right window (vertical split)
+    Ctrl + wj - move cursor to the window below (horizontal split)
+    Ctrl + wk - move cursor to the window above (horizontal split)

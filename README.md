@@ -29,3 +29,15 @@ https://vim.rtorr.com/
     D - delete (cut) to the end of the line
     d$ - delete (cut) to the end of the line
     x - delete (cut) character
+    
+    
+###  Cursor movement
+
+    h - move cursor left
+    j - move cursor down
+    k - move cursor up
+    l - move cursor right
+    H - move to top of screen
+    M - move to middle of screen
+    L - move to bottom of screen
+    w - jump forwards to the start of a word

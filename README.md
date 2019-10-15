@@ -8,6 +8,9 @@ https://vim.rtorr.com/
 ### SAVE QUIT
     :wq or :x or ZZ - write (save) and quit
 
+### GO TO LINE
+    :n 	Go to line n
+    nG 	Go to line n
 
 ### COPY
     yy - yank (copy) a line
